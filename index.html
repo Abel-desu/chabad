@@ -1,0 +1,170 @@
+<html lang="en">
+<head>
+<title>Chapad</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> 
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/6c59d03160.js"crossorigin="anonymous"
+></script>
+
+<body>
+
+<!-- Navbar -->
+<div class="w3-top ">
+    <div class="wrapper">
+        <a href="#">English</a>
+        <a href="#">My Pages</a>
+        <a href="https://he-il.facebook.com/chabadhaus.wien/"><i class="fa-brands fa-facebook-f"></i></a>
+      </div>
+    <div class="w3-center ">
+  <div class="w3-bar-item w3-white p-2 w3-card">
+    <div class="logo">
+        <a href="index.html"><img loading="lazy"  src="image/logo.png" alt=""width="100" height="80" class="vienna w3-bar-item w3-padding-larger"></a>
+    <a class="w3-bar-item w3-button w3-padding-large  w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+
+    </div>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-small">Tourist Info</a>
+    <a href="shabat-time.html" class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-small">Shabad Session</a>
+    <a href="accomodation.html" class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-small">Accommodation</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-small">Prayer Times</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-small">Shabbat Meals</a>
+    <a href="contact.html" class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-small">Contact Us</a>
+    <a href="donate.html" class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-small">Donate</a>
+    <a href="about.html" class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-small">About</a>
+
+</div>
+
+
+    
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"></a>
+</div>
+</div>
+</div>
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block  w3-hide w3-hide-large  w3-top" style="margin-top:46px">
+  <a href="index.html" class="w3-bar-item w3-button  w3-padding-large" onclick="myFunction()">Tourist Info</a>
+  <a href="shabat-time.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Shabad Session</a>
+  <a href="accomodation.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Accommodation</a>
+  <a href="Prayer Times" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Prayer Times</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Shabbat Meals</a>
+  <a href="contact.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Contact Us</a>
+  <a href="donate.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Donate</a>
+  <a href="about.html" class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-small">About</a>
+
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides first-slide w3-display-container w3-center">
+    <img src="image/we.jpg" style="width:100%">
+    <h1 class="welcome">Welcome to <br/>Chabad House <br/>Ethiopia</h1>
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32">
+      <div class="first-button">
+      <button type="button" class="header-button btn btn-outline-primary">tourist information</button>
+      <button type="button" class="header-button  btn btn-outline-primary">Prayer time</button>
+    </div>
+      <div class="mobile-button">
+      <button type="button" class="for-mobile w3-hide-medium btn btn-outline-primary">Prayer time</button>
+      <button type="button" class="for-mobile w3-hide-medium btn btn-outline-primary">tourist information</button>
+    </div>
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="image/shabad-session.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 ">
+      <h1 class="Seder">Shabat session</h1>
+      <button type="button" class="second-button  btn btn-outline-primary">tourist information</button>
+
+    </div>
+  </div>
+
+
+  <!-- The Band Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide">Useful information for travelers</h2>    
+    <div class="w3-row w3-padding-32 ">
+      <div class="w3-third">
+        <img src="image/10-1.jpg" class="img-fluid" alt="Nature">
+        <div class="information">
+            <img src="image/whatsapp.png" class="icon"alt="" srcset="">
+            <h5>our whatsapp group</h5>
+        </div>  
+      </div>
+      <div class="w3-third">
+        <img src="image/shabad-session.jpg"  style="width: 90%; height: auto;" class="img-fluid" alt="Nature">
+        <div class="information">
+            <img src="image/candles.png" class="icon"alt="" srcset="">  
+            <h5>Shabbat Session</h5>
+        </div>  
+      </div>
+      <div class="w3-third">
+        <img src="image/9.jpg"  class="img-fluid" alt="Nature">
+        <div class="information">
+            <img src="image/cutlery.png" class="icon"alt="" srcset="">
+            <h5>Kosher food in vienna</h5>
+        </div>  
+      </div>
+      <div class="w3-third">
+        <img src="image/5-1-1.jpg"  class="img-fluid" alt="Nature">
+        <div class="information">
+            <img src="image/support.png" class="icon"alt="" srcset="">
+            <h5>Contact us</h5>
+        </div>  
+      </div>
+      <div class="w3-third">
+        <img src="image/Ethiopian-adventure-tours-waterfall.jpg"  class="img-fluid" alt="Nature">
+        <div class="information">
+            <img src="image/information.png" class="icon"alt="" srcset="">
+            <h5>Tourist Info</h5>
+        </div>  
+      </div>
+      <div class="w3-third">
+        <img src="image/33-1.jpg"   class="img-fluid" alt="Nature">
+        <div class="information">
+            <img src="image/bed.png" class="icon"alt="" srcset="">
+            <h5>Hotel and Appartment </h5>
+        </div>  
+      </div>
+    </div>
+  </div>
+</div>
+<div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.682569797214!2d38.77882941430649!3d9.001327891901377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b844c652838ab%3A0xc73050081163159e!2sJewish%20Center%20-%20Chabad%20Ethiopia!5e0!3m2!1sen!2set!4v1669289381099!5m2!1sen!2set" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,623 @@
+.w3-col, .w3-half, .w3-third, .w3-twothird, .w3-threequarter, .w3-quarter {
+    float: left;
+    width: 45%;
+    margin-right: 23px;
+    margin-bottom: -118px;
+}
+.w3-padding-32 {
+    padding-top: 36px!important;
+    padding-bottom: 32px!important;
+    padding-left: 8px;
+}
+.information {
+    position: relative;
+    top: -190px;
+    left: 1%;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.icon{
+    width: 104px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+.contact-us{
+    margin-top: 136px;
+}
+.img-fluid:hover {  
+    -webkit-filter: grayscale(1); 
+    -webkit-transition: all .6s ease-in-out;  
+    background-color: aqua;
+    }
+    .information :hover {  
+        -webkit-filter: grayscale(1); 
+        -webkit-transition: all .6s ease-in-out;  
+        background-color: aqua;
+        }
+        .welcome {
+            display: flex;
+            font-family: 'atlas-pro', sans-serif;
+            font-weight: 400;
+            position: relative;
+            font-size: 56px;
+            left: 57px;
+            text-align: left;
+            top: -520px;
+            color: #fff;
+        margin-bottom: -200px;
+
+        }
+        .second-button {
+            position: relative;
+            left: -553px;
+            border: 1px solid #0df5bf;
+            top: -300px;
+            border-radius: 59px;
+            width: max-content;
+            color: #FFF;
+        }
+        .second-button:hover {
+            background-color:#37e5bc99;
+            mix-blend-mode: lighten;
+            color: white;
+            border: 1px solid #0df5bf;
+        }
+        .header-button {
+           display: none;
+        }
+        .Seder {
+            display: flex;
+            font-family: atlas-pro, sans-serif;
+            font-weight: 400;
+            position: relative;
+            font-size: 56px;
+            left: -500px;
+            text-align: left;
+            top: -300px;
+            color: #fff;
+        }
+        .wrapper {
+            display: none;
+        }
+        .for-mobile{
+            display: none;
+        }
+       
+        @media only screen and (max-width: 480px) {
+           
+.w3-col, .w3-half, .w3-third, .w3-twothird, .w3-threequarter, .w3-quarter {
+    position: relative;
+    float: left;
+    width: 43%;
+    margin-right: 23px;
+    margin-bottom: -118px;
+    left: 22px;
+}
+            .w3-padding-32 {
+                padding-top: 36px!important;
+                padding-bottom: 32px!important;
+                padding-left: 8px;
+            }
+            .information {
+                position: relative;
+                top: -110px;
+                left: 1%;
+                color: #fff;
+                text-align: center;
+                margin-bottom: 38px;
+            }
+            .icon {
+                width: 75px;
+            }
+            .logo{
+                display: flex;
+                justify-content: center;
+                flex-direction: row;
+            
+            }
+            .img-fluid:hover {  
+                -webkit-filter: grayscale(1); 
+                -webkit-transition: all .6s ease-in-out;  
+                background-color: aqua;
+                }
+                .information :hover {  
+                    -webkit-filter: grayscale(1); 
+                    -webkit-transition: all .6s ease-in-out;  
+                    background-color: aqua;
+                    }
+                    .w3-right {
+                        float: right!important;
+                        width: 475px;
+                    }
+                    .fa-bars:before, .fa-navicon:before {
+                        content: "\f0c9";
+                        margin: 296px;
+                    }
+                    
+   .welcome {
+    display: flex;
+    font-family: 'atlas-pro', sans-serif;
+    font-weight: 400;
+    position: relative;
+    font-size: 46px;
+    left: 119px;
+    text-align: left;
+    top: -240px;
+    color: #fff;
+    margin-bottom: -200px;
+    text-shadow: 79 197 black;
+}
+.second-button {
+    position: relative;
+    left: -41px;
+    border: 1px solid #0df5bf;
+    top: -12px;
+    border-radius: 59px;
+    width: max-content;
+    color: #FFF;
+}
+                    .second-button:hover {
+                        background-color:#37e5bc99;
+                        mix-blend-mode: lighten;
+                        color: white;
+                        border: 1px solid #0df5bf;
+                    }
+                  
+                    .Seder {
+                        display: flex;
+                        font-family: atlas-pro, sans-serif;
+                        font-weight: 400;
+                        position: relative;
+                        font-size: 56px;
+                        left: -30px;
+                        width: max-content;
+                        text-align: center;
+                        top: -31px;
+                        color: #fff;
+                    }
+                    .wrapper {
+                        display: none;
+                     }
+               .mobile-button{
+                display: flex;
+                position: relative;
+                gap: 15px;
+                top: -149px;
+                width: 136%;
+                left: 53px;
+            }
+
+                    .for-mobile{
+                        display: flex;
+                        border: 1px solid #0df5bf;
+                        border-radius: 59px;
+                        width: max-content;
+                        color: #FFF;
+                    }
+                    .for-mobile:hover {
+                        background-color:#37e5bc99;
+                        mix-blend-mode: lighten;
+                        color: white;
+                        border: 1px solid #0df5bf;
+                    }
+                    .information h5{
+                        font-weight: 400;
+                    }
+                    .w3-bar-block{
+                        background-color: #feffff;
+                    }
+
+        }
+       
+                    @media only screen and (min-width: 320px) {  
+                        .w3-col, .w3-half, .w3-third, .w3-twothird, .w3-threequarter, .w3-quarter {
+                           
+                                position: relative;
+                                float: left;
+                                margin-right: 37px;
+                                margin-bottom: -173px;
+                                left: 21px;
+                                height: 284px;
+                                width: 35%;
+                            }
+                                    .w3-padding-32 {
+                                        padding-top: 36px!important;
+                                        padding-bottom: 32px!important;
+                                        padding-left: 8px;
+                                    }
+                                    .information {
+                                        position: relative;
+                                        top: -79px;
+                                        left: 1%;
+                                        color: #fff;
+                                        text-align: center;
+                                        margin-bottom: 38px;
+                                    }
+                                    .icon {
+                                        width: 31px;
+                                    }
+                                    .logo{
+                                        display: flex;
+                                        justify-content: center;
+                                        flex-direction: row;
+                                    
+                                    }
+                                    .img-fluid:hover {  
+                                        -webkit-filter: grayscale(1); 
+                                        -webkit-transition: all .6s ease-in-out;  
+                                        background-color: aqua;
+                                        }
+                                        .information :hover {  
+                                            -webkit-filter: grayscale(1); 
+                                            -webkit-transition: all .6s ease-in-out;  
+                                            background-color: aqua;
+                                            }
+                                            .w3-right {
+                                                float: right!important;
+                                                width: 475px;
+                                            }
+                                            .fa-bars:before, .fa-navicon:before {
+                                                
+                                                    content: "\f0c9";
+                                                    margin: 237px;
+                                                }
+                                        
+            
+            .welcome {
+                display: flex;
+                font-family: 'atlas-pro', sans-serif;
+                font-weight: 400;
+                position: relative;
+                font-size: 34px;
+                left: 89px;
+                text-align: left;
+                top: -164px;
+                color: #fff;
+                margin-bottom: -173px;
+            }
+                        .second-button {
+                            position: relative;
+                            left: -41px;
+                            border: 1px solid #0df5bf;
+                            top: -12px;
+                            border-radius: 59px;
+                            width: max-content;
+                            color: #FFF;
+                        }
+                                            .second-button:hover {
+                                                background-color:#37e5bc99;
+                                                mix-blend-mode: lighten;
+                                                color: white;
+                                                border: 1px solid #0df5bf;
+                                            }
+                                          
+                                            .Seder {
+                                                display: flex;
+                                                font-family: atlas-pro, sans-serif;
+                                                font-weight: 400;
+                                                position: relative;
+                                                font-size: 37px;
+                                                left: -30px;
+                                                width: max-content;
+                                                text-align: center;
+                                                top: -31px;
+                                                color: #fff;
+                                            }
+                                            .wrapper {
+                                                display: none;
+                                             }
+                                            .mobile-button {
+                                                display: flex;
+                                                position: relative;
+                                                gap: 15px;
+                                                top: -99px;
+                                                width: 136%;
+                                                left: 17px;
+                                            }
+                        
+                                            .for-mobile{
+                                                display: flex;
+                                                border: 1px solid #0df5bf;
+                                                border-radius: 59px;
+                                                width: max-content;
+                                                color: #FFF;
+                                            }
+                                            .for-mobile:hover {
+                                                background-color:#37e5bc99;
+                                                mix-blend-mode: lighten;
+                                                color: white;
+                                                border: 1px solid #0df5bf;
+                                            }
+                                            .information h5{
+                                                font-weight: 400;
+                                            }
+                                            .w3-bar-block{
+                                                background-color: #feffff;
+                                            }
+                        
+                    }
+                    @media only screen and (min-width: 481px) {
+           
+                        .w3-col, .w3-half, .w3-third, .w3-twothird, .w3-threequarter, .w3-quarter {
+                            position: relative;
+                            float: left;
+                            width: 41%;
+                            margin-right: 23px;
+                            margin-bottom: -95px;
+                            left: 22px;
+                        }
+                                    .w3-padding-32 {
+                                        padding-top: 36px!important;
+                                        padding-bottom: 32px!important;
+                                        padding-left: 8px;
+                                    }
+                                    .information {
+                                        position: relative;
+                                        top: -110px;
+                                        left: 1%;
+                                        color: #fff;
+                                        text-align: center;
+                                        margin-bottom: 38px;
+                                    }
+                                    .icon {
+                                        width: 75px;
+                                    }
+                                    .logo{
+                                        display: flex;
+                                        justify-content: center;
+                                        flex-direction: row;
+                                    
+                                    }
+                                    .img-fluid:hover {  
+                                        -webkit-filter: grayscale(1); 
+                                        -webkit-transition: all .6s ease-in-out;  
+                                        background-color: aqua;
+                                        }
+                                        .information :hover {  
+                                            -webkit-filter: grayscale(1); 
+                                            -webkit-transition: all .6s ease-in-out;  
+                                            background-color: aqua;
+                                            }
+                                            .w3-right {
+                                                float: right!important;
+                                                width: 475px;
+                                            }
+                                            .fa-bars:before, .fa-navicon:before {
+                                                content: "\f0c9";
+                                                margin: 296px;
+                                            }
+                                            
+                           .welcome {
+                            display: flex;
+                            font-family: 'atlas-pro', sans-serif;
+                            font-weight: 400;
+                            position: relative;
+                            font-size: 46px;
+                            left: 119px;
+                            text-align: left;
+                            top: -240px;
+                            color: #fff;
+                            margin-bottom: -200px;
+                            text-shadow: 79 197 black;
+                        }
+                        .second-button {
+                            position: relative;
+                            left: -41px;
+                            border: 1px solid #0df5bf;
+                            top: -12px;
+                            border-radius: 59px;
+                            width: max-content;
+                            color: #FFF;
+                        }
+                                            .second-button:hover {
+                                                background-color:#37e5bc99;
+                                                mix-blend-mode: lighten;
+                                                color: white;
+                                                border: 1px solid #0df5bf;
+                                            }
+                                          
+                                            .Seder {
+                                                display: flex;
+                                                font-family: atlas-pro, sans-serif;
+                                                font-weight: 400;
+                                                position: relative;
+                                                font-size: 56px;
+                                                left: -30px;
+                                                width: max-content;
+                                                text-align: center;
+                                                top: -31px;
+                                                color: #fff;
+                                            }
+                                            .wrapper {
+                                               display: none;
+                                            }
+                                       .mobile-button{
+                                        display: flex;
+                                        position: relative;
+                                        gap: 15px;
+                                        top: -149px;
+                                        width: 136%;
+                                        left: 53px;
+                                    }
+                        
+                                            .for-mobile{
+                                                display: flex;
+                                                border: 1px solid #0df5bf;
+                                                border-radius: 59px;
+                                                width: max-content;
+                                                color: #FFF;
+                                            }
+                                            .for-mobile:hover {
+                                                background-color:#37e5bc99;
+                                                mix-blend-mode: lighten;
+                                                color: white;
+                                                border: 1px solid #0df5bf;
+                                            }
+                                            .information h5{
+                                                font-weight: 400;
+                                            }
+                                            .w3-bar-block{
+                                                background-color: #feffff;
+                                            }
+                        
+                                }
+ @media only screen and (min-width: 769px) {
+    .w3-col, .w3-half, .w3-third, .w3-twothird, .w3-threequarter, .w3-quarter {
+        position: relative;
+        float: left;
+        width: 41%;
+        margin-right: 23px;
+        margin-bottom: -77px;
+        left: 22px;
+    }
+                .w3-padding-32 {
+                    padding-top: 36px!important;
+                    padding-bottom: 32px!important;
+                    padding-left: 8px;
+                    
+                }
+                .information {
+                    position: relative;
+                    top: -129px;
+                    left: 1%;
+                    color: #fff;
+                    text-align: center;
+                    margin-bottom: 38px;
+                }
+                .icon {
+                    width: 75px;
+                }
+                .logo{
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: row;
+                
+                }
+                .img-fluid:hover {  
+                    -webkit-filter: grayscale(1); 
+                    -webkit-transition: all .6s ease-in-out;  
+                    background-color: aqua;
+                    }
+                    .information :hover {  
+                        -webkit-filter: grayscale(1); 
+                        -webkit-transition: all .6s ease-in-out;  
+                        background-color: aqua;
+                        }
+                        .w3-right {
+                            float: right!important;
+                            width: 475px;
+                        }
+                        .fa-bars:before, .fa-navicon:before {
+                            content: "\f0c9";
+                            margin: 296px;
+                        }
+                        
+       .welcome {
+        display: flex;
+        font-family: 'atlas-pro', sans-serif;
+        font-weight: 400;
+        position: relative;
+        font-size: 46px;
+        left: 70px;
+        text-align: left;
+        top: -450px;
+        color: #fff;
+        margin-bottom: -200px;
+        text-shadow: 79 197 black;
+    }
+    .second-button {
+        position: relative;
+        left: -160px;
+        border: 1px solid #0df5bf;
+        top: -170px;
+        border-radius: 59px;
+        width: max-content;
+        color: #FFF;
+    }
+                        .second-button:hover {
+                            background-color:#37e5bc99;
+                            mix-blend-mode: lighten;
+                            color: white;
+                            border: 1px solid #0df5bf;
+                        }
+                      
+                        
+                            .Seder {
+                                display: flex;
+                                font-family: atlas-pro, sans-serif;
+                                font-weight: 400;
+                                position: relative;
+                                font-size: 56px;
+                                left: -137px;
+                                width: max-content;
+                                text-align: center;
+                                top: -187px;
+                                color: #fff;
+                            }
+                        .wrapper {
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: flex-end;
+                            position: relative;
+                            top: 32px;
+                            width: 94%;
+                            gap: 18px;
+                        }
+                   .mobile-button{
+                    display: flex;
+                    position: relative;
+                    gap: 15px;
+                    top: -149px;
+                    width: 136%;
+                    left: 53px;
+                }
+    
+                .for-mobile {
+                    display: flex;
+                    border: 1px solid rgb(13, 245, 191);
+                    position: relative;
+                    border-radius: 59px;
+                    width: max-content;
+                    top: -180px;
+                    color: rgb(255, 255, 255);
+                    left: -515px;
+                }
+                        .for-mobile:hover {
+                            background-color:#37e5bc99;
+                            mix-blend-mode: lighten;
+                            color: white;
+                            border: 1px solid #0df5bf;
+                        }
+                        .information h5{
+                            font-weight: 400;
+                        }
+                        .w3-bar-block{
+                            background-color: #feffff;
+                        }
+                        .w3-top {
+                            top: -26px;
+                        }
+                         .first-button{
+                            display: none;
+                        }
+                        .header-button {
+                            display: flex;
+                            border: 1px solid rgb(13, 245, 191);
+                            position: relative;
+                            border-radius: 59px;
+                            top: -290px;
+                            color: rgb(255, 255, 255);
+                            left: -230px;
+                        }
+                       
+                       
+                          
+
+                         }
+            
+

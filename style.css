@@ -45,7 +45,7 @@
             font-weight: 400;
             position: relative;
             font-size: 56px;
-            left: 57px;
+            left: 49px;
             text-align: left;
             top: -520px;
             color: #fff;
@@ -225,6 +225,10 @@
                                 height: 284px;
                                 width: 35%;
                             }
+                            .w3-top {
+                                top: -28px;
+                            }
+                            
                                     .w3-padding-32 {
                                         padding-top: 36px!important;
                                         padding-bottom: 32px!important;
@@ -263,8 +267,7 @@
                                             }
                                             .fa-bars:before, .fa-navicon:before {
                                                 
-                                                    content: "\f0c9";
-                                                    margin: 237px;
+                                                    display: none;
                                                 }
                                         
             
@@ -276,7 +279,7 @@
                 font-size: 34px;
                 left: 89px;
                 text-align: left;
-                top: -164px;
+                top: -183px;
                 color: #fff;
                 margin-bottom: -173px;
             }
@@ -309,8 +312,15 @@
                                                 color: #fff;
                                             }
                                             .wrapper {
-                                                display: none;
-                                             }
+                                                display: flex;
+                                                flex-direction: row;
+                                                position: relative;
+                                                top: 32px;
+                                                width: 78%;
+                                                gap: 18px;
+                                                left: 291px;
+                                            }
+                                             
                                             .mobile-button {
                                                 display: flex;
                                                 position: relative;
@@ -339,7 +349,10 @@
                                             .w3-bar-block{
                                                 background-color: #feffff;
                                             }
-                        
+                                            .img-fluid {
+                                                max-width: 118%;
+                                                height: auto;
+                                            }
                     }
                     @media only screen and (min-width: 481px) {
            
